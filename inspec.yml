@@ -1,0 +1,8 @@
+name: monitorama
+title: Monitorama Security
+maintainer: Monitorama Hardening Framework Team
+copyright: Monitorama Hardening Framework Team
+copyright_email: hello@monitorama.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile for Monitorama
+version: 2.1.0
