@@ -6,5 +6,5 @@ groups:
     labels:
       severity: slack
     annotations:
-      summary: "{{ $labels.profile }} compliance failure on {{ $labels.instance }}"
+      identifier: "{{ $labels.profile }} : {{ $labels.instance }}"
       description: "{{ $labels.instance }} has {{ $value }} compliance failures on the {{ $labels.profile }} profile. Report and remediation steps: http://glueops-inspec-bucket-results.s3-website-us-east-1.amazonaws.com/{{ $labels.profile }}/{{ $labels.instance }}"
